@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    position: relative;
+    margin: auto;
+    margin-top: 20%;
+}
+.indexForm{
+    position: relative;
+    margin: auto;
+    margin-top:3%;    
+}
+.btn{
+    width: 191px;
+    margin-left: 5%;   
+}
+.login{
+    margin-left: 20%;
+}
+.choose{
+    margin-left: 20%;
+}
+.showName{
+    display: flex;
+    justify-content: center;
+}
+.show{
+    display: block;
+    margin-left:860px ;
+}
+.top{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 120px;
+    height: 730px;
+    background:rgb(233, 233, 169);
+}
+.left ul li{
+    list-style: none;
+}
+.content{
+    display: flex;
+}
+
+.quit{
+    margin-left: 50px;
+    visibility: hidden;
+    color:blue;
+}
+.quit0{
+    margin-left: 50px;
+    visibility: hidden;
+    color: red;
+}
+.check{
+    color: red;    
+}
+.user,.pass,.em,.se,.ag{
+    color: red;
+}
+.hidee{
+    width: 15px;
+    height: 15px;
+    color:blue;
+    background-color: rgb(233, 233, 169);
+    display: flex;
+    justify-content: center;
+}
+.showw{
+    width: 15px;
+    height: 15px;
+    color:blue;
+    background-color: rgb(233, 233, 169);
+    display: none;
+    justify-content: center;
+}
+.tile{
+    font-weight: 700;
+    font-size: 25px;
+    font-style: oblique ;
+}
+.toggle{
+    background-color: rgb(255, 197, 7);
+}
+.right #table{
+    width: 940px;
+    font-size: 0.8em;
+}
